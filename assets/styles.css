@@ -1,0 +1,209 @@
+/* Styling for main body things */
+
+body {
+	background-color: white;
+	background-image: url("bg.png");
+	background-attachment: stretch;
+	background-size: 100%, 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'Segoe UI', Helvetica, 'OnePlus Sans', Arial, sans-serif;
+	Margin-top: 25px;
+	Margin-bottom: 25px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	Font-Size: 25px;
+	color: black;
+	text-align: center;
+	height: 100%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	Font-Size: 25px;
+	color: #0063A9;
+	text-align: center;
+	height: 100%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	padding: 15px;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+}
+
+p2 {
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	border-radius: 0px;
+	border: solid 0px;
+	background-color: rgba(0,0,0,0.75);
+	width:75%;
+	height: 100%;
+	padding: 10px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	jusify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+a {
+	color: white;
+	Font-Size: 25px;
+	color: white;
+	text-align: center;
+	border-radius: 0px;
+	border: solid 0px;
+	background-color: rgba(0,0,0,0.75);
+	width:75%;
+	height: 100%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	jusify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+a:hover {
+  background-color: #0063A9;
+}
+
+/* Following hides a fix targeted to pad the bottom for Mobile Firefox */
+
+footer {
+	display: none;
+}
+
+/* Mobile browser theme */
+
+/* Styling for main body things */
+
+@media only screen and (max-width: 600px) {
+
+
+body {
+	background-color: black;
+	background-image: url("qualitymark.png"), url("smsgraph.png");
+	background-attachment: fixed;
+	background-size: 100%, 100%;
+	background-position: right bottom, left top;
+	background-repeat: no-repeat;
+	font-family: 'Segoe UI', Helvetica, 'OnePlus Sans', Arial, sans-serif;
+	Margin-top: 25px;
+	Margin-bottom: 25px;
+	padding-bottom: 50px;
+}
+
+img {
+	max-width:20%;
+    height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	Font-Size: 20px;
+	color: black;
+	text-align: center;
+	height: 100%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	Font-Size: 20px;
+	color: #0063A9;
+	text-align: center;
+	height: 100%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	font-size: 20x;
+	color: black;
+	text-align: center;
+	width: 95%;
+	margin: auto;
+}
+
+p2 {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	border-radius: 0px;
+	border: solid 0px;
+	background-color: rgba(0,0,0,0.75);
+	width:95%;
+	height: 100%;
+	padding: 10px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	jusify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+a {
+	color: white;
+	Font-Size: 18px;
+	color: white;
+	text-align: center;
+	border-radius: 0px;
+	border: solid 0px;
+	background-color: rgba(0,0,0,0.75);
+	width:95%;
+	height: 100%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	jusify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+a:hover {
+  background-color: #0063A9;
+}
+
+/* Following is a fix targeted to pad the bottom for Mobile Firefox */
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 35px;
+   color: black;
+   text-align: center;
+}
+
+}
